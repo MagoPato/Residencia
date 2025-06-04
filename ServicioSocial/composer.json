@@ -1,0 +1,17 @@
+{
+    "name": "lego1/pppp",
+    "description": "davidpatricio/residencia",
+    "type": "project",
+    "require": {
+        "phpoffice/phpword": "^1.3",
+        "phpoffice/phpspreadsheet": "^1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Patricio Escamilla Marquez",
+            "email": "lego172002@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

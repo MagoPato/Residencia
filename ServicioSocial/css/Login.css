@@ -1,0 +1,70 @@
+ body {
+            background-color: #005EA1;
+        }
+
+        .card {
+            margin-top: 5%;
+            margin-bottom: 5%;
+            background-color: #ECEEEF;
+            color: #5A6268;
+        }
+
+        .card-header {
+            background-color: #FFFFFF;
+            color: #5A6268;
+        }
+
+        .btn {
+            background-color: #2780D8;
+            color: white;
+            transition: 0.3s;
+            border-radius: 4px;
+        }
+
+        .btn:hover {
+            background-color: #005EA1;
+            color: #FFFFFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        a:hover {
+            color: #2780D8;
+        }
+
+        a {
+            color: #AAB2C5;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .custom-button-group ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .custom-button-group li a {
+            display: block;
+            padding: 10px 20px;
+            background-color: #2780D8;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .custom-button-group li a:hover {
+            background-color: #005EA1;
+        }
+
+        .no-border {
+            border-bottom: none !important;
+        }
+
+        .no-border li a {
+            border: none !important;
+            margin-left: 20px;
+        }

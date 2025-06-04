@@ -1,0 +1,30 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Datos simulados
+total_population = 84
+dm2_population = int(0.37 * total_population)  # 37% tiene DM2
+no_dm2_population = total_population - dm2_population  # 63% no tiene DM2
+
+# Simulación de respuestas para las personas con DM2
+questions = ['Hábitos Alimenticios', 'Actividad Física', 'Estrés Psicológico', 'Adherencia a Tratamientos', 'Apoyo Social', 'Calidad de Vida']
+responses = np.random.randint(0, 100, size=(len(questions), dm2_population))
+
+# Promedio de respuestas por pregunta
+average_responses = np.mean(responses, axis=1)
+
+# Graficar
+fig, ax = plt.subplots(figsize=(10, 6))
+
+# Gráfica de barras
+ax.bar(questions, average_responses, color='skyblue')
+
+# Etiquetas y título
+ax.set_ylabel('Promedio de Respuestas')
+ax.set_title('Promedio de Respuestas de Personas con DM2 (37% de la Población)')
+ax.set_ylim(0, 100)
+
+# Mostrar la gráfica
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()

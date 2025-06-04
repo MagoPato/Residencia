@@ -1,0 +1,146 @@
+    body{
+            background-color:#DFE9F0 !important;
+            }
+    /* Poner los íconos en color blanco, incluyendo el botón de barra */
+    i.fas {
+        color: white !important;
+    }
+
+    /* Poner todos los textos dentro de la navegación en blanco */
+    .sb-topnav a,
+    .sb-sidenav a,
+    .sb-sidenav .sb-sidenav-menu-heading,
+    .sb-sidenav .nav-link {
+        color: white !important;
+    }
+
+    /* Cambiar el color de fondo del navbar a azul */
+   .sb-topnav.navbar {
+    background: linear-gradient(180deg, #1C467D, #133c59) !important; /* Gradiente azul */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25) !important; /* Sombra solo abajo */
+}
+
+
+    /* Cambiar los iconos y el texto a gris claro cuando se pasa el ratón */
+    .sb-sidenav .nav-link:hover,
+    .sb-topnav a:hover {
+        color: #dcdcdc !important; /* Gris claro */
+    }
+
+    /* Cambiar los iconos a gris claro cuando se pasa el ratón */
+    .sb-sidenav .nav-link:hover i.fas,
+    .sb-topnav a:hover i.fas {
+        color: #dcdcdc !important; /* Gris claro */
+    }
+
+    /* Asegurar que los textos del menú desplegable estén visibles */
+    .dropdown-menu a {
+        color: black !important; /* Opcional: los textos del menú desplegable pueden quedarse negros */
+    }
+
+    /* Hacer que los iconos del menú lateral tengan color blanco */
+    .sb-nav-link-icon {
+        color: white !important;
+    }
+
+    /* Poner el ícono del botón de barra (hamburguesa) blanco */
+    #sidebarToggle i.fas {
+        color: white !important;
+    }
+/* Cambiar el color del texto del botón a blanco */
+#sidebarToggle {
+    color: white !important; /* Asegura que el texto del botón sea blanco */
+    border: none; /* Eliminar borde si es necesario */
+}
+
+/* Cambiar el color del ícono a blanco */
+#sidebarToggle i.fas {
+    color: white !important; /* Asegura que el ícono sea blanco */
+}
+
+            
+            
+
+
+
+
+    /* Cambiar el fondo a azul y el texto a blanco en el footer */
+#layoutAuthentication_footer footer {
+    background-color: #365CB2 !important; /* Azul */
+    color: white !important;
+   }
+
+
+    /* Cambiar el color de los textos dentro del footer */
+    #layoutAuthentication_footer .text-muted {
+        color: white !important;
+    }
+
+    /* Cambiar el color del texto de los créditos */
+    #credits {
+        color: white !important;
+    }
+
+    /* Asegurar que el enlace en el footer esté en blanco */
+    #credits a {
+        color: white !important;
+    }
+
+    /* Cambiar el color de los enlaces al pasar el ratón (hover) */
+    #credits a:hover {
+        color: #dcdcdc !important;
+    }
+
+.dropdown-menu a:hover {
+        background-color: #1C467D !important; /* Azul */
+    color: white !important;
+}
+
+
+
+
+/* Cambiar colores generales */
+.card-header.bg-success,
+.badge.bg-success,
+.btn.btn-success,
+.text-success{
+    background-color: #1C467D !important; /* Cambia el color de fondo */
+    color: white !important;              /* Cambia el color del texto */
+}
+
+.card-title.text-success {
+ color: #1C467D !important;
+ background-color: #FFFFFF !important;       
+}
+
+/* Para los íconos SVG dentro de esos elementos */
+.card-header.bg-success svg,
+.text-success svg,
+.card-title.text-success svg {
+    color: #1C467D !important;              /* Cambia el color de los íconos */
+    fill: white !important;
+}
+
+/* Cambiar fondo del header y color del texto */
+.card-header.bg-primary {
+    background-color: #1C467D !important;
+    color: white !important;
+}
+
+/* Cambiar color del título principal */
+.card-title.text-primary {
+    color: #1C467D !important;
+}
+
+.btn.btn-primary {
+    background-color: #1C467D !important;
+    border-color: #1C467D !important;
+    color: white !important;
+}
+
+.btn.btn-primary:hover {
+    background-color: #16365f !important;
+    border-color: #16365f !important;
+    color: white !important;
+}
+
